@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Connector",
+    "description": "LinkedIn Connections Automation Tool",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "image.png"
+    },
+    "background":{
+      "service_worker":"background.js"
+    },
+    "content_scripts": [
+      {
+          "matches":["*://*.linkedin.com/search/*"],
+          "js": ["content.js"]
+      }
+  ]
+  }

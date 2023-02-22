@@ -1,0 +1,26 @@
+.mainDiv{
+    height: 170px;
+    width: 250px;
+    text-align: center;
+}
+.h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.bdiv{
+    margin-top: 20px;
+}
+progress::-webkit-progress-value { color: black; }
+
+.hide{
+    display: none;
+}
